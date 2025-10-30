@@ -1,0 +1,40 @@
+# Visual Studio / C++ specific
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.tlog
+*.pch
+*.idb
+*.pgc
+*.pgd
+*.VC.db
+*.cache
+*.sdf
+*.suo
+
+# Build directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+ARM/
+ARM64/
+bin/
+obj/
+
+# VS user-specific
+.vs/
+*.vcxproj.user
+```
+
+**First Commit: Project Initialization**
+
+Now, let's make your very first commit to save this setup.
+
+* In your terminal (still in the `WindowsProcessScanner` root), run:
+    ```bash
+    git add .gitignore
+    git commit -m "Initial commit: Set up project repository and .gitignore"
+    
